@@ -12,20 +12,20 @@ body {
   align-items: center;
   min-height: 100vh;
   font-family: "Cabin", sans-serif;
-  /* background-image: url(website here); */
 }
 .container
 {
 position: relative;
 width: 100%;
 max-width: 1000px;
-min-height: 1000px;
+min-height: auto;
 margin: 50px;
 background-color: Gainsboro;
 display: grid;
 grid-template-columns: 1fr 2fr;
 box-shadow: 0 35px 55px rgba(0,0,0,0.1);
 }
+/* LEFT PANNEL */
 h1
 {
   text-align: center;
@@ -111,6 +111,14 @@ object-fit: cover;
   color: white;
   font-weight: 300;
 }
+a:hover {
+  color: #7289DA;
+}
+
+a:active {
+  color: #7289DA;
+}
+
 .Education ul
 {
   position: relative;
@@ -180,12 +188,19 @@ object-fit: cover;
   color: white;
   font-weight: 300;
 }
-
+/* RIGHT PANNEL */
 .container .right_side
 {
   position: relative;
   background: #424549;
   padding: 30px;
+}
+.company_icons {
+  float: left;
+  max-width: 64px;
+  max-height: 64px;
+  border-radius: 50%;
+overflow: hidden;
 }
 .about
 {
@@ -202,25 +217,31 @@ object-fit: cover;
   letter-spacing: 1px;
   margin-bottom: 10px;
 }
+.header
+{
+  display: inline-block;
+  display: flex;
+
+}
 p
 {
   color: white;
 }
-h4
+h5
+{
+  color: #b5bac1;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+h3
 {
   color: white;
-  text-align: right;1121
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-left: 5px;
 }
-.year_company
-{
-}
-.about .box
-{
-  display: flex;
-  flex-direction: row;
-  margin: 10px 0;
-}
-@media (max-width: 1000px)
+
+@media (max-width: 600px)
  {
    .container
    {
@@ -231,6 +252,9 @@ h4
 {
 
 }
+
+
+
 /*
 
 .core {
@@ -243,3 +267,12 @@ h4
 }
 
 }*/
+
+/* Colour Pallette
+#7289da	(114,137,218) Burple
+#424549	(66,69,73) light grey
+#36393e	(54,57,62) mid grey
+#282b30	(40,43,48) dark grey
+#1e2124	(30,33,36) very dark grey
+#b5bac1 - date font
+*/
