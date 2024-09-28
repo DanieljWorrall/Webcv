@@ -453,6 +453,10 @@ color: #b5bac1;
 {
 
 }
+}
+@-ms-viewport{
+  width: device-width;
+}
 /* Colour Pallette
 #7289da	(114,137,218) Burple
 #424549	(66,69,73) light grey
