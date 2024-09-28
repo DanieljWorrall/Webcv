@@ -1,10 +1,3 @@
-{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Open Sans';
-}
-
 body {
   background-color: #7289DA;
   display: flex;
@@ -12,6 +5,7 @@ body {
   align-items: center;
   min-height: 100vh;
   font-family: "Cabin", sans-serif;
+  /* background-image: url(website here); */
 }
 .container
 {
@@ -97,7 +91,6 @@ object-fit: cover;
 {
   position: relative;
   list-style: none;
-  cursor: pointer;
 }
 .contactinfo ul li .icon
 {
@@ -221,7 +214,6 @@ overflow: hidden;
 {
   display: inline-block;
   display: flex;
-
 }
 p
 {
@@ -240,7 +232,217 @@ h3
   margin-bottom: 0px;
   margin-left: 5px;
 }
+.tools
+{
+  color: #b5bac1;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+/* Personal Statement*/
+.readmore
+{
+  display: none;
+}
+.read-more-btn
+{
+  color: #b5bac1;
+  background-color:  #424549;
+  cursor: pointer;
+  border: none;
+}
+.readmoretext.show-more .readmore
+{
+  display: inline;
+}
 
+/*  6-The Orchard  */
+.read-more-btnorc
+{
+  color: #b5bac1;
+  background-color:  #424549;
+  cursor: pointer;
+  border: none;
+}
+.readmoreorc
+{
+  display: none;
+}
+.readmoretextorc.show-more .readmoreorc
+{
+  display: inline;
+}
+.readmoreorc2
+{
+  display: none;
+}
+.readmoretextorc2.show-more .readmoreorc2
+{
+  display: inline;
+}
+.readmoreorc3
+{
+  display: none;
+}
+.readmoretextorc3.show-more .readmoreorc3
+{
+  display: inline;
+}
+.readmoretextorc3::first-line
+{
+color: #b5bac1;
+}
+/*  5-Vice Media  */
+.read-more-btnvi
+{
+  color: #b5bac1;
+  background-color:  #424549;
+  cursor: pointer;
+  border: none;
+}
+.readmorevi
+{
+  display: none;
+}
+.readmoretextvi.show-more .readmorevi
+{
+  display: inline;
+}
+.readmorevi2
+{
+  display: none;
+}
+.readmoretextvi2.show-more .readmorevi2
+{
+  display: inline;
+}
+.readmoretextvi2::first-line
+{
+color: #b5bac1;
+}
+/*  4-Pulse Films */
+.readmorepulse
+{
+  display: none;
+}
+.read-more-btnpulse
+{
+  color: #b5bac1;
+  background-color:  #424549;
+  cursor: pointer;
+  border: none;
+}
+.readmoretextpulse.show-more .readmorepulse
+{
+  display: inline;
+}
+/*  3-Sony Music */
+.read-more-btnso
+{
+  color: #b5bac1;
+  background-color:  #424549;
+  cursor: pointer;
+  border: none;
+}
+.readmoreso
+{
+  display: none;
+}
+.readmoretextso.show-more .readmoreso
+{
+  display: inline;
+}
+.readmoreso2
+{
+  display: none;
+}
+.readmoretextso2.show-more .readmoreso2
+{
+  display: inline;
+}
+.readmoreso3
+{
+  display: none;
+}
+.readmoretextso3.show-more .readmoreso3
+{
+  display: inline;
+}
+.readmoretextso3::first-line
+{
+color: #b5bac1;
+}
+/*  2-WorkPlaceLive  */
+.read-more-btnwpl
+{
+  color: #b5bac1;
+  background-color:  #424549;
+  cursor: pointer;
+  border: none;
+}
+.readmorewpl
+{
+  display: none;
+}
+.readmoretextwpl.show-more .readmorewpl
+{
+  display: inline;
+}
+.readmorewpl2
+{
+  display: none;
+}
+.readmoretextwpl2.show-more .readmorewpl2
+{
+  display: inline;
+}
+.readmorewpl3
+{
+  display: none;
+}
+.readmoretextwpl3.show-more .readmorewpl3
+{
+  display: inline;
+}
+.readmoretextwpl3::first-line
+{
+color: #b5bac1;
+}
+/*  1-Restup  */
+.read-more-btnru
+{
+  color: #b5bac1;
+  background-color:  #424549;
+  cursor: pointer;
+  border: none;
+}
+.readmoreru
+{
+  display: none;
+}
+.readmoretextru.show-more .readmoreru
+{
+  display: inline;
+}
+.readmoreru2
+{
+  display: none;
+}
+.readmoretextru2.show-more .readmoreru2
+{
+  display: inline;
+}
+.readmoreru3
+{
+  display: none;
+}
+.readmoretextru3.show-more .readmoreru3
+{
+  display: inline;
+}
+.readmoretextru3::first-line
+{
+color: #b5bac1;
+}
 @media (max-width: 600px)
  {
    .container
@@ -252,27 +454,10 @@ h3
 {
 
 }
-
-
-
-/*
-
-.core {
-  width: 80%;
-  background-color: lightblue;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 20px;
-  max-width: 1500px;
-}
-
-}*/
-
 /* Colour Pallette
 #7289da	(114,137,218) Burple
 #424549	(66,69,73) light grey
 #36393e	(54,57,62) mid grey
 #282b30	(40,43,48) dark grey
 #1e2124	(30,33,36) very dark grey
-#b5bac1 - date font
-*/
+#b5bac1 - date font */
