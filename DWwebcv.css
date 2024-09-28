@@ -212,7 +212,6 @@ overflow: hidden;
 }
 .header
 {
-  display: inline-block;
   display: flex;
 }
 p
