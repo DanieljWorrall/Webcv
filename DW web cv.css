@@ -20,6 +20,11 @@ grid-template-columns: 1fr 2fr;
 box-shadow: 0 35px 55px rgba(0,0,0,0.1);
 }
 /* LEFT PANNEL */
+
+.hyperlink:hover
+{
+  color: #7289DA;
+}
 h1
 {
   text-align: center;
@@ -70,10 +75,6 @@ object-fit: cover;
   font-weight: 600;
   line-height: 1.4em;
 }
-.contactinfo
-{
-  padding-top: 40px;
-}
 .title
 {
   color: white;
@@ -82,10 +83,17 @@ object-fit: cover;
   letter-spacing: 1px;
   margin-bottom: 20px;
 }
+.text2:hover
+{
+  color: #7289DA;
+  cursor: pointer;
+}
+/* Contactinfo */
 .contactinfo ul
 {
   position: relative;
   padding: 0;
+  cursor: default;
 }
 .contactinfo ul li
 {
@@ -104,14 +112,7 @@ object-fit: cover;
   color: white;
   font-weight: 300;
 }
-a:hover {
-  color: #7289DA;
-}
-
-a:active {
-  color: #7289DA;
-}
-
+/* Education */
 .Education ul
 {
   position: relative;
@@ -121,7 +122,7 @@ a:active {
 {
   position: relative;
   list-style: none;
-  cursor: pointer;
+  cursor: default;
 }
 .Education ul li .icon
 {
@@ -135,6 +136,7 @@ a:active {
   color: white;
   font-weight: 300;
 }
+/* Hobbies */
 .hobbies ul
 {
   position: relative;
@@ -144,7 +146,7 @@ a:active {
 {
   position: relative;
   list-style: none;
-  cursor: pointer;
+  cursor: default;
 }
 .hobbies ul li .icon
 {
@@ -158,6 +160,7 @@ a:active {
   color: white;
   font-weight: 300;
 }
+/* Additional Experience */
 .Experience ul
 {
   position: relative;
@@ -167,7 +170,7 @@ a:active {
 {
   position: relative;
   list-style: none;
-  cursor: pointer;
+  cursor: default;
 }
 .Experience ul li .icon
 {
@@ -177,6 +180,30 @@ a:active {
   color: white
 }
 .Experience ul li span
+{
+  color: white;
+  font-weight: 300;
+}
+/* Downloads */
+.Downloads ul
+{
+  position: relative;
+  padding: 0;
+  cursor: default;
+}
+.Downloads ul li
+{
+  position: relative;
+  list-style: none;
+}
+.Downloads ul li .icon
+{
+  display: inline-block;
+  width: 30px;
+  font-size: 18px;
+  color: white
+}
+.Downloads ul li span
 {
   color: white;
   font-weight: 300;
@@ -230,12 +257,6 @@ h3
   margin-top: 10px;
   margin-bottom: 0px;
   margin-left: 5px;
-}
-.tools
-{
-  color: #b5bac1;
-  margin-top: 15px;
-  margin-left: 10px;
 }
 /* Personal Statement*/
 .readmore
@@ -453,14 +474,15 @@ color: #b5bac1;
 {
 
 }
-}
 @-ms-viewport{
   width: device-width;
 }
+
 /* Colour Pallette
 #7289da	(114,137,218) Burple
 #424549	(66,69,73) light grey
 #36393e	(54,57,62) mid grey
 #282b30	(40,43,48) dark grey
 #1e2124	(30,33,36) very dark grey
-#b5bac1 - date font */
+#b5bac1 - date font 
+*/
